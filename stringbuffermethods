@@ -1,0 +1,18 @@
+class Main
+{
+   public static void main(String args[])
+   {
+       StringBuffer st=new StringBuffer("Welcome");
+       System.out.println(st.append(" to class"));
+       System.out.println(st.insert(4,"HI"));
+       System.out.println(st.reverse());
+       System.out.println(st.delete(4,6));
+       System.out.println(st.replace(2,5,"JAVA"));
+       System.out.println(st.length());
+       System.out.println(st.substring(12));
+       System.out.println(st.charAt(4));
+       System.out.println(st.subSequence(12,17));
+       System.out.println(st.indexOf("W"));
+       
+   }
+}
